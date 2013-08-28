@@ -92,7 +92,7 @@ Install-Build-Required: false
 #Source-Url: https://github.com/wsun1/perlv2cart/raw/master/perlv2cart.tar.gz
 #Source-Url: https://github.com/wsun1/perlv2cart.git
 #Source-Url: git://github.com/wsun1/perlv2cart.git
-Source-Url: https://github.com/openshift/cucushifting/manifest/perlv2cart/raw/master/perlv2cart.zip
+Source-Url: https://raw.github.com/openshift/cucushifting/master/manifest/perlv2cart.zip
 #Source-Url: file:///root/perlv2cart/perlv2cart.zip
 #Source-Url: http://baidu.com
 #Source-Url: file:///root/perlv2cart/
