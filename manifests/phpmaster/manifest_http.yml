@@ -94,4 +94,4 @@ Endpoints:
         Options:       { health: true }
 
 Install-Build-Required: false
-Source-Url: http://raw.github.com/openshift-qe/cucushifting/master/manifests/phpmaster/phpv2cart.tar
+Source-Url: http://downloads-cucushift.rhcloud.com/phpv2cart.tar 
