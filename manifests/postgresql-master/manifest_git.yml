@@ -1,7 +1,7 @@
 ---
 Name: postgresqlqe
 Architecture: noarch
-Cartridge-Short-Name: POSTGRESQLQE
+Cartridge-Short-Name: POSTGRESQL
 Cartridge-Version: 0.3.5
 Compatible-Versions: []
 Cartridge-Vendor: openshiftqe
