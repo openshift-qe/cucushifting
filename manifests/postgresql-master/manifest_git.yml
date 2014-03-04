@@ -2,24 +2,26 @@
 Name: postgresql
 Architecture: noarch
 Cartridge-Short-Name: POSTGRESQL
-Cartridge-Version: 0.3.5
-Compatible-Versions: []
-Cartridge-Vendor: openshiftqe
+Cartridge-Version: 0.3.8
+Compatible-Versions:
+- 0.3.5
+- 0.3.6
+- 0.3.7
+Cartridge-Vendor: openshiftqe 
 Display-Name: PostgreSQL 9.2
 Description: PostgreSQL is an advanced Object-Relational database management system
 Version: '9.2'
 Versions:
-- '8.4'
 - '9.2'
 License: ASL 2.0
-Vendor: openshiftqe 
+Vendor: Red Hat
 Website: http://www.postgresql.org
 Categories:
 - service
 - database
 - embedded
 Help-Topics:
-  Building with PostGreSQL: http://docs.redhat.com/docs/en-US/OpenShift/2.0/html/User_Guide/sect-User_Guide-Working_With_Database_Cartridges.html
+  Building with PostGreSQL: https://access.redhat.com/site/documentation/en-US/OpenShift/2.0/html/User_Guide/sect-OpenShift-User_Guide-Working_With_Database_Cartridges.html
 Cart-Data:
 - Key: username
   Type: cart_data
@@ -49,12 +51,7 @@ Endpoints:
   Public-Port-Name: DB_PROXY_PORT
   Protocols:
   - postgresql
-Version-Overrides:
-  '9.2':
-    Display-Name: PostgreSQL 9.2
-    Provides:
-    - postgresql
-    - postgresql(version) = 9.2
-
 Install-Build-Required: false
+
 Source-Url: https://github.com/openshift-qe/cartridge-postgresql.git
+#Source-Url: https://github.com/openshift-qe/custom-cart-postgresql.git
